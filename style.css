@@ -1,0 +1,201 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;500;600;700;800;900&display=swap");
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.course {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  
+  .course p {
+    max-width: 662px;
+    font-size: 24px;
+    line-height: 36px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    margin-left: 124px;
+    line-height: 36px;
+  }
+  
+  .course h1 {
+    max-width: 365px;
+    margin-left: 124px;
+    margin-top: 91px;
+    font-size: 55px;
+    font-weight: 700;
+    font-family: 'Roboto Slab', serif;
+    line-height: 55.76px;
+    margin-bottom: 30px;
+  }
+  
+  .course .right {
+    margin-left: 190px;
+    margin-top: 170px;
+    position: relative;
+  }
+  
+  .course .right .image img {
+    width: 314px;
+    height: 315px;
+    z-index: 5;
+  }
+  
+
+  .infos {
+    margin-top: 100px;
+    margin-left: 122px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-bottom: 100px;
+  }
+  
+  .infos .left {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    position: relative;
+  }
+  
+  .infos .left .photo img {
+    z-index: 3;
+    /* width:fit-content; */
+  }
+  
+
+  
+  .infos .info-text {
+    margin-top: 50px;
+    width: 150px;
+  }
+  
+  .infos .info-text p {
+    width: 150px;
+    height: 39px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 32.5px;
+    margin-bottom: 0px;
+  }
+  
+  .infos .info-text span {
+    width: 150px;
+    height: 39px;
+    font-size: 18px;
+    line-height: 23.4px;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  .infos .firstdiv {
+    margin-left: 132px;
+  }
+  
+  .infos .seconddiv {
+    margin-left: 95px;
+  }
+  
+  .infos .thirddiv {
+    margin-left: 93px;
+  }
+  @media (min-width: 991px) {
+    /* TOP */
+    .photo img{
+      width: 500px;
+
+    }
+    .course {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-align: center;
+          -ms-flex-align: center;
+              align-items: center;
+    }
+    .course p {
+      max-width: 46vw;
+      font-size: 1.6vw;
+      line-height: 2.5vw;
+      font-family: 'Roboto', sans-serif;
+      font-weight: 400;
+      margin-left: 8.6vw;
+    }
+    .course h1 {
+      max-width: 25.3vw;
+      margin-left: 8.6vw;
+      margin-top: 6.3vw;
+      font-size: 3.8vw;
+      font-weight: 700;
+      font-family: 'Roboto Slab', serif;
+      line-height: 3.8vw;
+      margin-bottom: 2vw;
+    }
+    .course .right {
+      margin-left: 13vw;
+      margin-top: 11.8vw;
+      position: relative;
+    }
+    .course .right .image img {
+      width: 21.8vw;
+      height: 21.87vw;
+      z-index: 5;
+    }
+    .infos {
+      margin-top: 7vw;
+      margin-left: 8.4vw;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      margin-bottom: 7vw;
+    }
+    .infos .left {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      position: relative;
+    }
+    .infos .left .photo img {
+      z-index: 3;
+    }
+  
+    .infos .info-text {
+      margin-top: 6.47vw;
+      width: 10.4vw;
+    }
+    .infos .info-text p {
+      width: 10.4vw;
+      height: 2.7vw;
+      font-family: 'Roboto', sans-serif;
+      font-weight: 700;
+      font-size: 1.7vw;
+      line-height: 2.2vw;
+      margin-bottom: 0vw;
+    }
+    .infos .info-text span {
+      display: block;
+      width: 10.4vw;
+      height: 2.7vw;
+      font-size: 1.2vw;
+      line-height: 1.6vw;
+      font-weight: 400;
+      font-family: 'Roboto', sans-serif;
+    }
+    .infos .firstdiv {
+      margin-left: 9vw;
+    }
+    .infos .seconddiv {
+      margin-left: 6.5vw;
+    }
+    .infos .thirddiv {
+      margin-left: 6.4vw;
+    }
+  }
